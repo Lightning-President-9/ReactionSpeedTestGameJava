@@ -1,6 +1,6 @@
 # ReactionSpeedTestGameJava
 
-ReactionSpeedTestGameJava is a Java-based game designed to test and improve your reaction speed. It features three exciting game modes that challenge your reflexes in different ways.
+ReactionSpeedTestGame is a game made in Java , designed to test and improve your reaction speed. It features three exciting game modes that challenge your reflexes in different ways.
 
 ### Prerequisites
 
