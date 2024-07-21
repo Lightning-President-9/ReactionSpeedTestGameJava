@@ -63,7 +63,7 @@ Description of 3 game modes:
 
 ## Author
 
-* **Lightning-President-9** - *Initial work* - [Lightning-President-9](https://github.com/Lightning-President-9/ReactionSpeedTestGameJava)
+* **Lightning-President-9** - *Initial work* - [Lightning-President-9](https://github.com/Lightning-President-9)
 
 ## License
 
