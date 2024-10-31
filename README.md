@@ -61,6 +61,9 @@ Description of 3 game modes:
    - One Shoot Mode: Ascending order by time (less time is better).
    - One Min and Survival Mode: Descending order by target hit count (more hits are better).
 
+## ReactionSpeedTestGame-v1.1
+Corrected the Time issue and added a different game music.
+
 ## Author
 
 * **Lightning-President-9** - *Initial work* - [Lightning-President-9](https://github.com/Lightning-President-9)
