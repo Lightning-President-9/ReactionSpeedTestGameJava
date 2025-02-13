@@ -1,73 +1,64 @@
 # ReactionSpeedTestGameJava
+ReactionSpeedTestGame is a Java-made game that tests and enhances your reaction speed. It has three thrilling game modes that test your reflexes in various ways.
 
-ReactionSpeedTestGame is a game made in Java , designed to test and improve your reaction speed. It features three exciting game modes that challenge your reflexes in different ways.
+## Prerequisites
+You will require the following software to be installed on your system:
 
-### Prerequisites
+- [Java Development Kit (JDK)](https://www.java.com/)
+- [Eclipse IDE (optional)](https://www.eclipse.org/)
 
-You will need the following software installed on your system:
+## Installing
+Step-by-step instructions to install the development environment:
 
-- Java Development Kit (JDK)
-- Eclipse IDE (recommended)
+### Clone the repository:
+```sh
+git clone https://github.com/Lightning-President-9/ReactionSpeedTestGameJava.git
+```
 
-### Installing
+### Open Eclipse IDE and import the project:
+- Go to **File > Import > General > Existing Projects into Workspace**.
+- Choose the cloned repository directory.
+- Complete the import process.
 
-A step-by-step guide to set up the development environment:
-
-1. **Clone the repository:**
-   ```sh
-   git clone https://github.com/Lightning-President-9/ReactionSpeedTestGameJava.git
-   ```
-   
-2. **Open Eclipse IDE and import the project:**
-   - Go to `File > Import > General > Existing Projects into Workspace`.
-   - Select the cloned repository directory.
-   - Finish the import process.
-
-3. **Run the main class:**
-   - Locate the main class in the project.
-   - Right-click and select `Run As > Java Application`.
+### Run the main class:
+- Find the main class in the project.
+- Right-click and choose **Run As > Java Application**.
 
 ## Built With
-
-* [Eclipse](https://www.eclipse.org/) - The IDE used for development.
-* [Java](https://www.java.com/) - The programming language used.
+- [Eclipse](https://www.eclipse.org/) - The development IDE.
+- [Java](https://www.java.com/) - The language used.
 
 ## Notes
+### Explanation of 3 game modes:
 
-Description of 3 game modes:
+#### One Shoot Mode:
+- In this mode, there will be a single target.
+- The time will be calculated from the moment the target was on the screen.
 
-1. **One Shoot Mode:**
-   - In this mode, a single target will appear.
-   - The time calculated will be based on when the target appeared on screen.
+#### One Min Mode:
+- You will be given 1 minute to get as many of the targets you can.
 
-2. **One Min Mode:**
-   - In this mode, you will get 1 minute to hit as many targets as you can.
+#### Survival Mode:
+- There is no time limit for this mode.
+- The game cycle will terminate in case you lose the target or hit a wrong target.
+- **Note:** Losing the target will mean an immediate failure in any mode.
 
-3. **Survival Mode:**
-   - In this mode, there is no time restriction.
-   - The game loop will end either if you miss the target or hit a non-target.
+## Saving System
+- Sound effect volume and game music volume are stored and retrieved.
+- Your record will be stored in a text file with the corresponding game mode.
 
-**NOTE:** Missing the target will cause an instant loss in any of the modes.
-
-### Saving System
-
-- Sound effect volume and game music volume are saved and loaded.
-- Your record will be saved in a text file with the respective game mode.
-
-**Record Saving Rules:**
-1. Initially, 10 records are saved.
-2. After 10 records, a new record will be saved only if it is better than the existing 10 records.
-3. Records are sorted as follows:
-   - One Shoot Mode: Ascending order by time (less time is better).
-   - One Min and Survival Mode: Descending order by target hit count (more hits are better).
+### Rules for Saving Records:
+- In the beginning, 10 records are stored.
+- Once 10 records have been made, a new record will be stored only if it is faster than the current 10 records.
+- **Records are ordered in the following manner:**
+  - **One Shoot Mode:** Order by ascending time (lower time is better).
+  - **One Min and Survival Mode:** Target hit count in descending order (more hits are preferable).
 
 ## ReactionSpeedTestGame-v1.1
-Corrected the Time issue and added a different game music.
+- Fixed the Time bug and included an alternate game music.
 
 ## Author
-
-* **Lightning-President-9** - *Initial work* - [Lightning-President-9](https://github.com/Lightning-President-9)
+- [Lightning-President-9](https://github.com/Lightning-President-9) - Original work
 
 ## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the [MIT License](https://github.com/Lightning-President-9/ReactionSpeedTestGameJava/blob/main/LICENSE) - see the LICENSE file for details.
