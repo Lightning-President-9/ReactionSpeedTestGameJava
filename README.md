@@ -58,7 +58,8 @@ git clone https://github.com/Lightning-President-9/ReactionSpeedTestGameJava.git
 - Fixed the Time bug and included an alternate game music.
 
 ## Author
-- [Lightning-President-9](https://github.com/Lightning-President-9) - Original work
+- [Lightning-President-9](https://github.com/Lightning-President-9)
+- [Youtube Link](https://youtu.be/gqebz5DKkXI?si=URsljGVJfohIPMpe)
 
 ## License
 This project is licensed under the [MIT License](https://github.com/Lightning-President-9/ReactionSpeedTestGameJava/blob/main/LICENSE) - see the LICENSE file for details.
