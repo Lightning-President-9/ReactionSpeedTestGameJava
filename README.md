@@ -57,9 +57,15 @@ git clone https://github.com/Lightning-President-9/ReactionSpeedTestGameJava.git
 ## ReactionSpeedTestGame-v1.1
 - Fixed the Time bug and included an alternate game music.
 
+## Known Limitations
+- Survival Mode: There is no time limit in this mode. The game continues until the player misses a target or hits the wrong target. Therefore, it can theoretically continue indefinitely as long as the player maintains accuracy.
+- Integer Overflow: The target hit counter uses Java's int data type. If the number of targets hit exceeds the maximum value of Integer.MAX_VALUE (2,147,483,647), integer overflow may occur, potentially causing incorrect score tracking or unexpected behavior.
+
+## YouTube Link
+[Youtube Link](https://youtu.be/gqebz5DKkXI?si=URsljGVJfohIPMpe)
+
 ## Author
-- [Lightning-President-9](https://github.com/Lightning-President-9)
-- [Youtube Link](https://youtu.be/gqebz5DKkXI?si=URsljGVJfohIPMpe)
+[Lightning-President-9](https://github.com/Lightning-President-9)
 
 ## License
 This project is licensed under the [MIT License](https://github.com/Lightning-President-9/ReactionSpeedTestGameJava/blob/main/LICENSE) - see the LICENSE file for details.
